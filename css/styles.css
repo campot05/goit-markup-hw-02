@@ -10,3 +10,51 @@ body {
   color: var(--title-text-color);
   background-color: var(--background-color);
 }
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+
+.main-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.main-nav .link:hover,
+.main-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.main-nav .active {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contacts .link:hover {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--white-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
