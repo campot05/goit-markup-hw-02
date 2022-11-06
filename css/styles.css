@@ -7,7 +7,7 @@
 }
 
 body {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   background-color: var(--background-color);
 }
 
@@ -38,12 +38,13 @@ body {
   color: var(--accent-color);
 }
 
-.contacts .link {
+.contacts-link {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-style: normal;
 }
 
-.contacts .link:hover {
+.contacts-link:hover {
   color: var(--accent-color);
 }
 
@@ -55,6 +56,43 @@ body {
   color: var(--white-color);
 }
 
+.hero-btn {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
 .section-title {
   color: var(--title-text-color);
+}
+
+.privilege-title {
+  color: var(--title-text-color);
+}
+
+.team-title {
+  color: var(--title-text-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.footer-logo span {
+  color: var(--accent-color);
+}
+
+.adress .link {
+  color: var(--white-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.adress .link:hover {
+  color: var(--accent-color);
 }
