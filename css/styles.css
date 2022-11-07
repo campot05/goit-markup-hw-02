@@ -3,17 +3,21 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --white-color: #ffffff;
-  --background-color: #f5f5f5;
 }
 
 body {
   color: var(--primary-text-color);
-  background-color: var(--background-color);
+  background-color: var(--white-color);
 }
 
 .list {
   list-style: none;
 }
+
+address {
+  font-style: normal;
+}
+/* header */
 
 .logo {
   color: #000000;
@@ -41,12 +45,13 @@ body {
 .contacts-link {
   color: var(--primary-text-color);
   text-decoration: none;
-  font-style: normal;
 }
 
 .contacts-link:hover {
   color: var(--accent-color);
 }
+
+/* hero */
 
 .hero {
   background-color: #2f303a;
@@ -62,6 +67,8 @@ body {
   cursor: pointer;
 }
 
+/* privilege */
+
 .section-title {
   color: var(--title-text-color);
 }
@@ -70,9 +77,21 @@ body {
   color: var(--title-text-color);
 }
 
+/* team */
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
 .team-title {
   color: var(--title-text-color);
 }
+
+.team-item {
+  background-color: var(--white-color);
+}
+
+/* footer */
 
 .footer {
   background-color: #2f303a;
@@ -80,19 +99,37 @@ body {
 
 .footer-logo {
   color: var(--white-color);
-  text-decoration: none;
-}
-
-.footer-logo span {
-  color: var(--accent-color);
 }
 
 .adress .link {
   color: var(--white-color);
   text-decoration: none;
-  font-style: normal;
 }
 
 .adress .link:hover {
   color: var(--accent-color);
+}
+
+/* страница portfolio */
+
+.portfolio {
+  background-color: #ffffff;
+}
+
+.filter-btn {
+  color: var(--title-text-color);
+  border: none;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border: none;
+}
+
+.portfolio-list .title {
+  color: var(--title-text-color);
 }
