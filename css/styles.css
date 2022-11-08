@@ -8,6 +8,7 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -17,11 +18,19 @@ body {
 address {
   font-style: normal;
 }
+
+button {
+  font-family: inherit;
+}
 /* header */
 
 .logo {
   color: #000000;
   text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo span {
@@ -132,4 +141,9 @@ address {
 
 .portfolio-list .title {
   color: var(--title-text-color);
+}
+
+.portfolio-list a {
+  text-decoration: none;
+  color: inherit;
 }
